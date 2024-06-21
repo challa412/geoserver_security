@@ -108,7 +108,7 @@ app.use(express.json());
       });
     
       // Set the appropriate content type for the response
-      res.setHeader("Content-Type", "image/png");
+    //   res.setHeader("Content-Type", "image/png");
       // Send the binary data received from WMS server
       res.send(response.data);
     } catch (error) {
